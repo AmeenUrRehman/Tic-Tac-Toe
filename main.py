@@ -94,7 +94,7 @@ def new_game():
 
 
 windows = Tk()
-players = ["x", "o"]
+players = ["X", "O"]
 player = random.choice(players)
 buttons = [[0, 0, 0],
            [0, 0, 0],
